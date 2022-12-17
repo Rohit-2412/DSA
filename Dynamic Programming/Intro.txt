@@ -1,0 +1,23 @@
+Dynamic Programming - 
+    Properties :
+    optimal subtrcuture and overlapping subproblem
+
+optimal subtrcuture : 
+    if we can write recurrence relation, then a problem is said to have optimal subtrcuture.
+
+overlapping subproblem :
+    if our subproblems repeat, then a problem is said to have overlapping subproblem
+
+Example : fibonacci series
+        we will store our repeating answers somewhere to save our time (this property is called Dynamic Programming)
+
+Ways to handle overlapping subproblem :
+    Memoization      and        Tabulation
+
+Memoization : 
+        A lookup table is maintained and checked before computataion of any state.
+        Recursion is involved.
+
+Tabulation : 
+        Solution is build from Bottom to top.
+        It is an iterative process.
