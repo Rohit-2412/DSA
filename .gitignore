@@ -3,3 +3,5 @@
 .vscode/
 *.exe
 **/tempCodeRunnerFile.cpp
+**/*.bin
+**/.cph/
